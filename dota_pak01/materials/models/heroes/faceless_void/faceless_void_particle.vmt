@@ -1,22 +1,27 @@
 "CustomHero"
 {
-	$baseTexture "models/heroes/faceless_void/faceless_void_color"
-	"$normalmap" "models/development/flatnormal"
+	$baseTexture "models/heroes/faceless_void/body_color"
+	"$normalmap" "models/heroes/faceless_void/body_normal"
+	"$maskmap1" "models/heroes/faceless_void/body_mask1"
+	"$maskmap2" "models/heroes/faceless_void/body_mask2"
 
-	$diffusewarp "models/heroes/storm_spirit/storm_spirit_staticremnant_diffusewarp"
-	$FRESNELWARP "models/heroes/storm_spirit/storm_spirit_staticremnant_fresnelranges"
+	$SPECULAREXPONENT 1
+	$SPECULARSCALE 2
+	$SPECULARCOLOR "[.55 .5 3.8]"
 
-	$SPECULAREXPONENT 50
-
-	$SPECULARSCALE 50
-
-//	$SPECULARBLENDTOFULL 1
-//	$DIFFUSEWARPBLENDTOFUL 1
 
 	$RIMLIGHTSCALE 20
-	$additive 1
+	"$additive" "1"
+	//$translucent 1
         $ALLOWDIFFUSEMODULATION 1
 
-	$rimlightcolor "[.3 .4 4]"
+	$rimlightcolor "[.43 .4 4]"
+
+	"Proxies"
+	{
+		"UseCombinedTexture"
+		{
+		}
+	}
 
 }

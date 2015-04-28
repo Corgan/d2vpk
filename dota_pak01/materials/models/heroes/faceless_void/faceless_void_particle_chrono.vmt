@@ -1,0 +1,27 @@
+"CustomHero"
+{
+	$baseTexture "models/heroes/faceless_void/body_color"
+	"$normalmap" "models/heroes/faceless_void/body_normal"
+	"$maskmap1" "models/heroes/faceless_void/body_mask1"
+	"$maskmap2" "models/heroes/faceless_void/body_mask2"
+
+	//$SPECULAREXPONENT 1
+	//$SPECULARSCALE 2
+	//$SPECULARCOLOR "[.55 .5 3.8]"
+
+
+	//$RIMLIGHTSCALE 20
+	//"$additive" "1"
+	$translucent 1
+        //$ALLOWDIFFUSEMODULATION 1
+
+	//$rimlightcolor "[.43 .4 4]"
+
+	"Proxies"
+	{
+		"UseCombinedTexture"
+		{
+		}
+	}
+
+}

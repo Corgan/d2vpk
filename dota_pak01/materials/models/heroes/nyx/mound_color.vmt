@@ -1,0 +1,38 @@
+"CustomHero"
+{
+	"$basetexture" "models/heroes/nyx/mound_color"
+
+	"$normalmap" "models/heroes/tiny_04/tiny4_body_normal"
+	"$maskmap1" "models/heroes/tiny_04/tiny4_body_masks1"
+	"$maskmap2" "models/heroes/tiny_04/tiny4_body_masks2"
+
+//	"$specularwarp" "models/heroes/nyx/nyx_lightwarp"
+	$SPECULAREXPONENT 14
+	$SPECULARSCALE 4
+	
+	$IgnoreBudgetCheck 1
+	$alphatest 1	
+
+	
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"TextureScroll"		
+		{
+			"texturescrollvar"	"$detail1texturetransform"
+			"texturescrollrate"	 "0.5"
+			"texturescrollangle"	 "83"
+		}
+
+
+		"invis_proxy"
+		{
+		}
+		"status_proxy"
+		{
+		}
+		"hero_proxy"
+		{
+		}
+	}
+}

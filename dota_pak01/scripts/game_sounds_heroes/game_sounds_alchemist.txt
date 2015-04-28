@@ -301,6 +301,30 @@
 	}
 }
 
+"Hero_Alchemist.Scepter.Cast" 
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.5"
+	"soundlevel"  	"SNDLVL_84dB"
+	"pitch"			"120"
+	"wave"			")weapons/hero/alchemist/chemical_rage_cast.wav"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "dota_update_default"
+			"mixer"
+			{
+				"mixgroup" "Ultimates"
+			}
+			"speakers_spatialize"
+			{
+				"input_radius"  "300"
+			}
+		}
+	}
+}
+
 
 "Hero_Alchemist.Footsteps"
 {

@@ -438,12 +438,12 @@
 				"img"		"images/trophies/nb15_2.png"
 			}
 
-			"20"
+			"10"
 			{
 				"img"		"images/trophies/nb15_3.png"
 			}
 
-			"50"
+			"25"
 			{
 				"img"		"images/trophies/nb15_4.png"
 			}
