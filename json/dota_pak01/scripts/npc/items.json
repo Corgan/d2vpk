@@ -839,6 +839,9 @@
         },
         {
           "health": 200
+        },
+        {
+          "duration_minutes_tooltip": 7
         }
       ]
     },
@@ -874,6 +877,9 @@
         },
         {
           "health": 200
+        },
+        {
+          "duration_minutes_tooltip": 4
         }
       ]
     },
@@ -904,6 +910,7 @@
       "ItemShareability": "ITEM_FULLY_SHAREABLE_STACKING",
       "ItemPurchasable": "0",
       "ItemDeclarations": "DECLARE_PURCHASES_TO_SPECTATORS",
+      "ItemDisassembleRule": "DOTA_ITEM_DISASSEMBLE_NEVER",
       "AbilityCastRange": "500",
       "AbilityCooldown": "0",
       "AbilitySpecial": [
@@ -976,7 +983,8 @@
       "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
       "Model": "models/props_gameplay/tango.mdl",
       "Effect": "dropped_tango",
-      "AbilityUnitTargetType": "DOTA_UNIT_TARGET_TREE",
+      "AbilityUnitTargetType": "DOTA_UNIT_TARGET_TREE | DOTA_UNIT_TARGET_CUSTOM",
+      "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_CUSTOM",
       "AbilityCastRange": "165",
       "AbilityCastPoint": "0.0",
       "AbilityCooldown": "60.0",
@@ -1382,6 +1390,9 @@
         },
         {
           "bonus_gold": 190
+        },
+        {
+          "transmute_cast_range_tooltip": 600
         }
       ]
     },
@@ -1470,6 +1481,9 @@
       "ItemAliases": "pms;poor man's shield",
       "AbilitySpecial": [
         {
+          "bonus_agility": 6
+        },
+        {
           "damage_block_melee": 20
         },
         {
@@ -1480,9 +1494,6 @@
         },
         {
           "block_chance_hero": 100
-        },
-        {
-          "bonus_agility": 6
         }
       ]
     },
@@ -1896,6 +1907,9 @@
         },
         {
           "soul_damage_duration": 8.0
+        },
+        {
+          "soul_release_range_tooltip": 950
         }
       ]
     },
@@ -2016,10 +2030,10 @@
           "bonus_mana_regen": 150
         },
         {
-          "silence_duration": 5.0
+          "silence_damage_percent": 30.0
         },
         {
-          "silence_damage_percent": 30.0
+          "silence_duration": 5.0
         }
       ]
     },
@@ -3881,6 +3895,7 @@
       "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
       "FightRecapLevel": "1",
       "AbilityCooldown": "28.0",
+      "AbilitySharedCooldown": "shadow_blade",
       "AbilityManaCost": "75",
       "ItemCost": "2800",
       "ItemShopTags": "damage;attack_speed;movespeed;hard_to_tag",
@@ -3923,6 +3938,7 @@
       "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
       "FightRecapLevel": "1",
       "AbilityCooldown": "24.0",
+      "AbilitySharedCooldown": "shadow_blade",
       "AbilityManaCost": "75",
       "ItemCost": "4475",
       "ItemShopTags": "damage;attack_speed;movespeed;hard_to_tag",

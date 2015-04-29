@@ -264,11 +264,26 @@
 "Hero_NyxAssassin.Burrow.In"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.3"
+	"volume"		"1.0"
+	"soundlevel"  	"SNDLVL_84dB"
+	"pitch"			"95, 105"
+	"wave"			")weapons\hero\nyx\burrow_in.wav"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "dota_attack_block_dist"
+		}
+	}
+}
+
+"Hero_NyxAssassin.Burrow.Out"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
 	"soundlevel"  	"SNDLVL_81dB"
-	"pitch"			"50"
-	"wave"			")weapons\hero\nyx\spiked_carapace.wav"
-	"soundentry_version" "2"
+	"pitch"			"95, 105"
+	"wave"			")weapons\hero\nyx\burrow_out.wav"
 	"operator_stacks"
 	{
 		"update_stack"
@@ -286,14 +301,13 @@
 	}
 }
 
-"Hero_NyxAssassin.Burrow.Out"
+"Hero_NyxAssassin.Burrow.Out.River"
 {
 	"channel"		"CHAN_STATIC"
 	"volume"		"1.0"
 	"soundlevel"  	"SNDLVL_81dB"
-	"pitch"			"1"
-	"wave"			")weapons/hero/sand_king/sand_king_death.wav"
-	"soundentry_version" "2"
+	"pitch"			"95, 105"
+	"wave"			")weapons\hero\nyx\burrow_out_water.wav"
 	"operator_stacks"
 	{
 		"update_stack"

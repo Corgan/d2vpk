@@ -8469,6 +8469,12 @@
             60.0,
             60.0
           ]
+        },
+        {
+          "treant_min_dmg_tooltip": 22
+        },
+        {
+          "treant_max_dmg_tooltip": 28
         }
       ]
     },
@@ -19735,6 +19741,12 @@
             175,
             225
           ]
+        },
+        {
+          "burn_as_damage_tooltip": 100
+        },
+        {
+          "cast_range_tooltip": 600
         }
       ]
     },
@@ -20099,7 +20111,8 @@
       "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP",
       "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
       "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
-      "AbilityCastRange": "800 800 800 800",
+      "MaxLevel": "1",
+      "AbilityCastRange": "800",
       "AbilityCooldown": "30",
       "AbilityCastPoint": "0.3",
       "AbilityManaCost": "0",
@@ -20111,12 +20124,7 @@
           "duration": 0.6
         },
         {
-          "speed": [
-            800,
-            800,
-            800,
-            800
-          ]
+          "speed": 800
         }
       ]
     },
@@ -22056,7 +22064,7 @@
     },
     "techies_focused_detonate": {
       "ID": "5635",
-      "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+      "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_UNRESTRICTED | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
       "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
       "AbilityCastRange": "0",
       "MaxLevel": "1",

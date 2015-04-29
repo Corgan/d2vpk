@@ -1,10 +1,7 @@
 "CustomHero"
 {
 	"$basetexture" "models/heroes/nyx/mound_color"
-
-	"$normalmap" "models/heroes/tiny_04/tiny4_body_normal"
-	"$maskmap1" "models/heroes/tiny_04/tiny4_body_masks1"
-	"$maskmap2" "models/heroes/tiny_04/tiny4_body_masks2"
+	"$normalmap" "models/heroes/nyx/mound_normal"
 
 //	"$specularwarp" "models/heroes/nyx/nyx_lightwarp"
 	$SPECULAREXPONENT 14

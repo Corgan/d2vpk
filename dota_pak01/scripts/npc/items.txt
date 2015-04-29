@@ -1713,6 +1713,11 @@
 				"var_type"				"FIELD_INTEGER"
 				"health"				"200"
 			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"duration_minutes_tooltip"				"7"
+			}
 		}
 	}
 	
@@ -1774,6 +1779,11 @@
 				"var_type"				"FIELD_INTEGER"
 				"health"				"200"
 			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"duration_minutes_tooltip"				"4"
+			}
 		}
 	}
 	
@@ -1828,6 +1838,7 @@
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE_STACKING"
 		"ItemPurchasable"				"0"
 		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		"ItemDisassembleRule"				"DOTA_ITEM_DISASSEMBLE_NEVER"
 		
 		// Stats
 		//-------------------------------------------------------------------------------------------------------------
@@ -1959,7 +1970,8 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
 		"Model"							"models/props_gameplay/tango.mdl"
 		"Effect"						"dropped_tango"
-		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_TREE"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_TREE | DOTA_UNIT_TARGET_CUSTOM"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_CUSTOM"
 
 		// Stats
 		//-------------------------------------------------------------------------------------------------------------
@@ -2777,6 +2789,11 @@
 				"var_type"				"FIELD_INTEGER"
 				"bonus_gold"			"190"
 			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"transmute_cast_range_tooltip"			"600"
+			}
 		}
 	}
 
@@ -2964,28 +2981,28 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"damage_block_melee"	"20"
+				"bonus_agility"			"6"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"damage_block_ranged"	"10"
+				"damage_block_melee"	"20"
 			}
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"block_chance"			"53"
+				"damage_block_ranged"	"10"
 			}
 			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"block_chance_hero"		"100"
+				"block_chance"			"53"
 			}
 			"05"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_agility"			"6"
-			}
+				"block_chance_hero"		"100"
+			}			
 		}
 	}
 	
@@ -3810,7 +3827,11 @@
 				"var_type"				"FIELD_FLOAT"
 				"soul_damage_duration"	"8.0"
 			}
-			
+			"11"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"soul_release_range_tooltip"	"950"
+			}
 		}
 	}
 
@@ -4048,16 +4069,16 @@
 			{
 				"var_type"				"FIELD_INTEGER"
 				"bonus_mana_regen"		"150"
-			}
+			}			
 			"05"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"silence_duration"		"5"
+				"silence_damage_percent"	"30"
 			}
 			"06"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"silence_damage_percent"	"30"
+				"silence_duration"		"5"
 			}
 		}
 	}
@@ -7200,6 +7221,7 @@
 		// Stats		
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityCooldown"				"28.0"
+		"AbilitySharedCooldown"			"shadow_blade"
 
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
@@ -7285,6 +7307,8 @@
 		// Stats		
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityCooldown"				"24.0"
+		"AbilitySharedCooldown"			"shadow_blade"
+
 
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------

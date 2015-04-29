@@ -12356,6 +12356,21 @@
 				"var_type"				"FIELD_FLOAT"
 				"duration"				"60 60 60 60"
 			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"treant_health_tooltip"				"550"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"treant_min_dmg_tooltip"				"22"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"treant_max_dmg_tooltip"				"28"
+			}
 		}
 	}
 	
@@ -28480,6 +28495,16 @@
 				"var_type"				"FIELD_INTEGER"
 				"burn_amount"			"125 175 225"
 			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"burn_as_damage_tooltip"			"100"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cast_range_tooltip"			"600"
+			}
 		}
 	}
 
@@ -29250,8 +29275,9 @@
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
 		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"MaxLevel"						"1"
 
-		"AbilityCastRange"				"800 800 800 800"
+		"AbilityCastRange"				"800"
 
 		// Time		
 		//-------------------------------------------------------------------------------------------------------------
@@ -29279,7 +29305,7 @@
 			"03"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"speed"						"800 800 800 800"
+				"speed"						"800"
 			}
 		}
 	}
@@ -33018,7 +33044,7 @@
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"ID"					"5635"// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_UNRESTRICTED | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
 		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
 		
 		"AbilityCastRange"				"0"
