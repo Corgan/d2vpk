@@ -312,7 +312,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemCost"						"1400"
 		"ItemShopTags"					"armor"
-		"ItemQuality"					"component"
+		"ItemQuality"					"secret_shop"
 		"ItemAliases"					"platemail"
 		"SecretShop"					"1"
 
@@ -535,9 +535,9 @@
 		
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"						"4000"
+		"ItemCost"						"4300"
 		"ItemShopTags"					"attack_speed"
-		"ItemQuality"					"component"
+		"ItemQuality"					"common"
 		"ItemAliases"					"moon shard"
 		"SideShop"						"0"
 
@@ -902,7 +902,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemCost"						"2100"
 		"ItemShopTags"					"agi;int;str"
-		"ItemQuality"					"component"
+		"ItemQuality"					"secret_shop"
 		"ItemAliases"					"ultimate orb"
 		"SideShop"						"1"
 		"SecretShop"					"1"
@@ -1174,7 +1174,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemCost"						"1800"
 		"ItemShopTags"					"evasion"
-		"ItemQuality"					"component"
+		"ItemQuality"					"secret_shop"
 		"ItemAliases"					"talisman of evasion"
 		"SecretShop"					"1"
 
@@ -1330,7 +1330,7 @@
 
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"						"500"
+		"ItemCost"						"465"
 		"ItemShopTags"					"regen_health;regen_mana;boost_health;boost_mana;int;agi;str"
 		"ItemQuality"					"common"
 		"ItemAliases"					"magic wand"
@@ -1832,7 +1832,7 @@
 
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"						"400"
+		"ItemCost"						"275"
 		"ItemQuality"					"common"
 		"ItemAliases"					"ward"
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE_STACKING"
@@ -2171,7 +2171,7 @@
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityManaCost"				"75"
-		"ItemCost"						"2450"
+		"ItemCost"						"4450"
 		"ItemShopTags"					"teleport;move_speed"
 		"ItemQuality"					"common"
 		"ItemAliases"					"bot;boots of travel"
@@ -2270,7 +2270,7 @@
 		
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"						"1350"
+		"ItemCost"						"1290"
 		"ItemShopTags"					"damage;move_speed;hard_to_tag"
 		"ItemQuality"					"common"
 		"ItemAliases"					"phase boots"
@@ -2467,7 +2467,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemCost"						"875"
 		"ItemShopTags"					"regen_health"
-		"ItemQuality"					"secret_shop"
+		"ItemQuality"					"component"
 		"ItemAliases"					"roh;ring of health"
 		"ItemShareability"				"ITEM_PARTIALLY_SHAREABLE"
 		"SideShop"						"1"
@@ -2504,7 +2504,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemCost"						"875"
 		"ItemShopTags"					"regen_mana"
-		"ItemQuality"					"secret_shop"
+		"ItemQuality"					"component"
 		"ItemAliases"					"void stone"
 		"ItemShareability"				"ITEM_PARTIALLY_SHAREABLE"
 		"SideShop"						"1"
@@ -2834,7 +2834,7 @@
 
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"						"1675"
+		"ItemCost"						"1650"
 		"ItemShopTags"					"damage;int;attack_speed;regen_mana"
 		"ItemQuality"					"common"
 		"ItemAliases"					"oblivion staff"
@@ -2969,7 +2969,7 @@
 
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"						"550"
+		"ItemCost"						"500"
 		"ItemShopTags"					"agi;block"
 		"ItemQuality"					"common"
 		"ItemAliases"					"pms;poor man's shield"
@@ -3637,7 +3637,7 @@
 
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"						"3500"
+		"ItemCost"						"3525"
 		"ItemShopTags"					"regen_health;boost_magic_resist"
 		"ItemQuality"					"rare"
 		"ItemAliases"					"pipe of insight"
@@ -3950,7 +3950,7 @@
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityManaCost"				"100"
-		"ItemCost"						"5575"
+		"ItemCost"						"5675"
 		"ItemShopTags"					"int;regen_mana;agi;hard_to_tag"
 		"ItemQuality"					"rare"
 		"ItemAliases"					"hex;sheepstick;scythe of vyse"
@@ -4040,7 +4040,7 @@
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityManaCost"				"100"
-		"ItemCost"						"5025"
+		"ItemCost"						"4075"
 		"ItemShopTags"					"int;attack_speed;damage;regen_mana;damage;hard_to_tag"
 		"ItemQuality"					"rare"
 		"ItemAliases"					"orchid malevolence"
@@ -4380,7 +4380,7 @@
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityManaCost"				"180"
-		"ItemCost"						"2800"
+		"ItemCost"						"2720"
 		"ItemShopTags"					"damage;int;str;agi;hard_to_tag"
 		"ItemQuality"					"rare"	
 		"ItemAliases"					"dagon 1"
@@ -4448,7 +4448,7 @@
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityManaCost"				"180"
-		"ItemCost"						"2850"
+		"ItemCost"						"3970"
 		"ItemShopTags"					"damage;int;str;agi;hard_to_tag"
 		"ItemQuality"					"rare"	
 		"ItemAliases"					"dagon 2"
@@ -4516,7 +4516,7 @@
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityManaCost"				"180"
-		"ItemCost"						"2850"
+		"ItemCost"						"5220"
 		"ItemShopTags"					"damage;int;str;agi;hard_to_tag"
 		"ItemQuality"					"rare"
 		"ItemAliases"					"dagon 3"	
@@ -4584,7 +4584,7 @@
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityManaCost"				"180"
-		"ItemCost"						"2850"
+		"ItemCost"						"6470"
 		"ItemShopTags"					"damage;int;str;agi;hard_to_tag"
 		"ItemQuality"					"rare"
 		"ItemAliases"					"dagon 4"	
@@ -4652,7 +4652,7 @@
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityManaCost"				"180"
-		"ItemCost"						"2850"
+		"ItemCost"						"7720"
 		"ItemShopTags"					"damage;int;str;agi;hard_to_tag"
 		"ItemQuality"					"rare"
 		"ItemAliases"					"dagon 5"	
@@ -4893,7 +4893,7 @@
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityManaCost"				"50"
-		"ItemCost"						"2700"
+		"ItemCost"						"3950"
 		"ItemShopTags"					"int;str;hard_to_tag;see_invis"
 		"ItemQuality"					"rare"
 		"ItemAliases"					"necronomicon 2"
@@ -5003,7 +5003,7 @@
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityManaCost"				"50"
-		"ItemCost"						"2700"
+		"ItemCost"						"5200"
 		"ItemShopTags"					"int;str;hard_to_tag;see_invis"
 		"ItemQuality"					"rare"
 		"ItemAliases"					"necronomicon 3"
@@ -5128,6 +5128,8 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+
+		"AbilityCastRange"				"600"
 		
 
 		// Item Info
@@ -5354,7 +5356,7 @@
 
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"						"5300"
+		"ItemCost"						"5500"
 		"ItemShopTags"					"str;regen_health;health_pool"
 		"ItemQuality"					"epic"
 		"ItemAliases"					"hot;heart of tarrasque"
@@ -5562,7 +5564,7 @@
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityManaCost"				"100"
-		"ItemCost"						"4600"
+		"ItemCost"						"4700"
 		"ItemShopTags"					"int;armor;hard_to_tag"
 		"ItemQuality"					"epic"
 		"ItemAliases"					"shiva's guard"
@@ -5872,7 +5874,7 @@
 
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"						"3150"
+		"ItemCost"						"4050"
 		"ItemShopTags"					"regen_health;regen_mana;str;agi;int;hard_to_tag"
 		"ItemQuality"					"epic"
 		"ItemAliases"					"ls;lotus"
@@ -5953,7 +5955,7 @@
 
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"						"2225"
+		"ItemCost"						"2175"
 		"ItemShopTags"					"regen_health;block;health_pool"
 		"ItemQuality"					"epic"
 		"ItemAliases"					"vanguard"
@@ -6032,7 +6034,7 @@
 
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"						"3850"
+		"ItemCost"						"3800"
 		"ItemShopTags"					"armor;boost_armor;regen_health;block;health_pool"
 		"ItemQuality"					"epic"
 		"ItemAlertable"					"1"
@@ -6290,7 +6292,7 @@
 
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"						"2100"
+		"ItemCost"						"2125"
 		"ItemShopTags"					"regen_health;magic_resist"
 		"ItemQuality"					"epic"
 		"ItemAliases"					"hood of defiance"
@@ -6490,7 +6492,7 @@
 
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"						"5150"
+		"ItemCost"						"5225"
 		"ItemShopTags"					"damage"
 		"ItemQuality"					"epic"
 		"ItemAliases"					"radiance"
@@ -6564,7 +6566,7 @@
 
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"						"5900"
+		"ItemCost"						"5875"
 		"ItemShopTags"					"agi;damage;evasion;attack_speed"
 		"ItemQuality"					"epic"
 		"ItemAliases"					"bfly;butterfly"
@@ -6644,7 +6646,7 @@
 
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"						"5550"
+		"ItemCost"						"5520"
 		"ItemShopTags"					"damage;crit"
 		"ItemQuality"					"epic"
 		"ItemAliases"					"daedalus"
@@ -6804,7 +6806,7 @@
 
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"						"4350"
+		"ItemCost"						"4575"
 		"ItemShopTags"					"damage;health_regen;mana_regen;hard_to_tag"
 		"ItemQuality"					"epic"
 		"ItemAliases"					"bf;battle fury"
@@ -7052,7 +7054,7 @@
 
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"						"2150"
+		"ItemCost"						"2120"
 		"ItemShopTags"					"damage;crit"
 		"ItemQuality"					"epic"
 		"ItemAliases"					"crystalys"
@@ -7120,7 +7122,7 @@
 
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"						"2400"
+		"ItemCost"						"2370"
 		"ItemShopTags"					"damage;attack_speed;armor;regen_health;hard_to_tag"
 		"ItemQuality"					"epic"
 		"ItemAliases"					"armlet of mordiggian"
@@ -7313,7 +7315,7 @@
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityManaCost"				"75"
-		"ItemCost"						"4475"
+		"ItemCost"						"5200"
 		"ItemShopTags"					"damage;attack_speed;movespeed;hard_to_tag"
 		"ItemQuality"					"epic"
 		"ItemAliases"					"sb;invis;shadow blade"
@@ -7632,7 +7634,7 @@
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityManaCost"				"50"
-		"ItemCost"						"5600"
+		"ItemCost"						"5700"
 		"ItemShopTags"					"damage;attack_speed;unique"
 		"ItemQuality"					"artifact"
 		"ItemAliases"					"mjollnir"
@@ -8095,7 +8097,7 @@
 
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"						"4100"
+		"ItemCost"						"3500"
 		"ItemShopTags"					"damage;unique"
 		"ItemQuality"					"artifact"
 		"ItemAliases"					"desolator"
@@ -8438,7 +8440,7 @@
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityManaCost"				"0"
-		"ItemCost"						"3150"
+		"ItemCost"						"3850"
 		"ItemShopTags"					"agi;int;unique;hard_to_tag"
 		"ItemQuality"					"artifact"
 		"ItemAliases"					"diffusal blade 2"
@@ -8559,7 +8561,7 @@
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityManaCost"				"150"
-		"ItemCost"						"4900"
+		"ItemCost"						"4700"
 		"ItemShopTags"					"agi;str;int;hard_to_tag"
 		"ItemQuality"					"epic"
 		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_ALWAYS"
@@ -8822,13 +8824,12 @@
 
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"						"4275"
+		"ItemCost"						"5900"
 		"ItemShopTags"					"move_speed;boost_mana;mana_pool"
 		"ItemQuality"					"rare"
 		"ItemAliases"					"mana;mb;core"
 		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS"
 		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_ALWAYS"
-		"ItemAlertable"					"1"
 		
 		// Special	
 		//-------------------------------------------------------------------------------------------------------------
@@ -8971,7 +8972,7 @@
 
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"						"1875"
+		"ItemCost"						"1850"
 		"ItemShopTags"					"str;agi;int;damage;move_speed;attack_speed;hard_to_tag"
 		"ItemQuality"					"rare"
 		"ItemAliases"					"drum of endurance"
@@ -9069,6 +9070,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityCastRange"				"1000"
 		"AbilityCooldown"				"7.0"
+		"AbilitySharedCooldown"			"medallion"
 
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
@@ -9153,6 +9155,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityCastRange"				"1000"
 		"AbilityCooldown"				"7.0"
+		"AbilitySharedCooldown"			"medallion"
 
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
@@ -9327,7 +9330,7 @@
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityManaCost"				"50"
-		"ItemCost"						"2400"
+		"ItemCost"						"2520"
 		"ItemShopTags"					"int;armor;regen_health;hard_to_tag"
 		"ItemQuality"					"rare"
 		"ItemAliases"					"vod;veil of discord"
@@ -9394,6 +9397,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ItemRecipe"					"1"
 		"ItemResult"					"item_guardian_greaves"
+
 		"ItemRequirements"
 		{
 			"01"						"item_mekansm;item_arcane_boots"
@@ -9418,12 +9422,13 @@
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityManaCost"				"0"
-		"ItemCost"						"4500"
+		"ItemCost"						"5300"
 		"ItemShopTags"					"int;armor;regen_health;hard_to_tag"
 		"ItemQuality"					"rare"
 		"ItemAliases"					"guardian"
 		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
-		
+		"ItemAlertable"					"1"
+
 		// Special	
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilitySpecial"
@@ -10099,10 +10104,11 @@
 		
 		// Item Info
 		//-------------------------------------------------------------------------------------------------------------
-		"ItemCost"						"2200"
+		"ItemCost"						"1950"
 		"ItemShopTags"					""
+		"ItemQuality"					"rare"
 		"ItemAliases"					"glimmer cape"
-		"ItemDisassembleRule"				"DOTA_ITEM_DISASSEMBLE_ALWAYS"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_ALWAYS"
 		
 		// Special	
 		//-------------------------------------------------------------------------------------------------------------

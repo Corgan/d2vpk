@@ -2903,6 +2903,7 @@
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_CUSTOM"
 		"MaxLevel"						"1"
 		"FightRecapLevel"				"1"
+		"IsGrantedByScepter"			"1"
 
 		// Casting
 		//-------------------------------------------------------------------------------------------------------------
@@ -12356,7 +12357,7 @@
 				"var_type"				"FIELD_FLOAT"
 				"duration"				"60 60 60 60"
 			}
-			"05"
+			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
 				"treant_health_tooltip"				"550"
@@ -12646,8 +12647,10 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO"
 		"MaxLevel"						"1"
 		"FightRecapLevel"				"1"
+		"IsGrantedByScepter"			"1"
 
 		// Casting
 		//-------------------------------------------------------------------------------------------------------------
@@ -20395,6 +20398,7 @@
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_TREE"
 		"MaxLevel"						"1"
 		"FightRecapLevel"				"1"
+		"IsGrantedByScepter"			"1"
 
 		// Casting
 		//-------------------------------------------------------------------------------------------------------------
@@ -20495,6 +20499,7 @@
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
 		"MaxLevel"						"1"
 		"FightRecapLevel"				"1"
+		"IsGrantedByScepter"			"1"
 
 		// Casting
 		//-------------------------------------------------------------------------------------------------------------
@@ -21892,6 +21897,7 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"MaxLevel"						"1"
 		"FightRecapLevel"				"1"
+		"IsGrantedByScepter"			"1"
 
 		// Casting
 		//-------------------------------------------------------------------------------------------------------------
@@ -24748,7 +24754,8 @@
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
 		"FightRecapLevel"				"1"
 		"MaxLevel"						"3"
-		
+		"IsGrantedByScepter"			"1"
+
 		// Casting
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityCastRange"				"1200 1200 1200"
@@ -25400,7 +25407,8 @@
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
 		"MaxLevel"						"1"
 		"FightRecapLevel"				"1"
-		
+		"IsGrantedByScepter"			"1"
+
 		// Casting
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityCastPoint"				"0.2"
@@ -26959,7 +26967,7 @@
 			"03"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"miss_duration"			"3 4 5 6"
+				"miss_duration"			"2.5 3 3.5 4"
 			}
 			"04"
 			{
@@ -27052,6 +27060,7 @@
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
 		"MaxLevel"						"1"
 		"FightRecapLevel"				"1"
+		"IsGrantedByScepter"			"1"
 
 		// Casting
 		//-------------------------------------------------------------------------------------------------------------

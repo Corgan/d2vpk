@@ -1763,6 +1763,7 @@
       "AbilityUnitTargetType": "DOTA_UNIT_TARGET_CUSTOM",
       "MaxLevel": "1",
       "FightRecapLevel": "1",
+      "IsGrantedByScepter": "1",
       "AbilityCastRange": "600",
       "AbilityCastPoint": "0.25",
       "AbilityCooldown": "140",
@@ -8471,6 +8472,9 @@
           ]
         },
         {
+          "treant_health_tooltip": 550
+        },
+        {
           "treant_min_dmg_tooltip": 22
         },
         {
@@ -8663,8 +8667,10 @@
       "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN",
       "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
       "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+      "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO",
       "MaxLevel": "1",
       "FightRecapLevel": "1",
+      "IsGrantedByScepter": "1",
       "AbilityCastRange": "150",
       "AbilityCastPoint": "0.2",
       "AbilityCooldown": "50",
@@ -14382,6 +14388,7 @@
       "AbilityUnitTargetType": "DOTA_UNIT_TARGET_TREE",
       "MaxLevel": "1",
       "FightRecapLevel": "1",
+      "IsGrantedByScepter": "1",
       "AbilityCastRange": "160",
       "AbilityCastPoint": "0.2",
       "AbilityCooldown": "25",
@@ -14429,6 +14436,7 @@
       "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
       "MaxLevel": "1",
       "FightRecapLevel": "1",
+      "IsGrantedByScepter": "1",
       "AbilityCastRange": "475",
       "AbilityCastPoint": "0.45",
       "AbilityCooldown": "6",
@@ -15397,6 +15405,7 @@
       "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN",
       "MaxLevel": "1",
       "FightRecapLevel": "1",
+      "IsGrantedByScepter": "1",
       "AbilityCastPoint": "1.0",
       "AbilitySpecial": [
         {
@@ -17380,6 +17389,7 @@
       "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
       "FightRecapLevel": "1",
       "MaxLevel": "3",
+      "IsGrantedByScepter": "1",
       "AbilityCastRange": "1200 1200 1200",
       "AbilityCastPoint": "0.3 0.3 0.3",
       "AbilityCooldown": "8.0 8.0 8.0",
@@ -17795,6 +17805,7 @@
       "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES",
       "MaxLevel": "1",
       "FightRecapLevel": "1",
+      "IsGrantedByScepter": "1",
       "AbilityCastPoint": "0.2",
       "AbilityCastRange": "128",
       "AbilityCooldown": "12",
@@ -18807,10 +18818,10 @@
         },
         {
           "miss_duration": [
+            2.5,
             3.0,
-            4.0,
-            5.0,
-            6.0
+            3.5,
+            4.0
           ]
         },
         {
@@ -18865,6 +18876,7 @@
       "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
       "MaxLevel": "1",
       "FightRecapLevel": "1",
+      "IsGrantedByScepter": "1",
       "AbilityCastRange": "600",
       "AbilityCastPoint": "0.2",
       "AbilityCooldown": "45",
