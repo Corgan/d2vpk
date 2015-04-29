@@ -12356,7 +12356,7 @@
 				"var_type"				"FIELD_FLOAT"
 				"duration"				"60 60 60 60"
 			}
-			"05"
+			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
 				"treant_health_tooltip"				"550"
