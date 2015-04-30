@@ -467,18 +467,6 @@ Rule alchemist_CastExecuteIsAbilityChemicalRage_Rule
 	response alchemist_CastExecuteIsAbilityChemicalRage
 }
 
-Response alchemist_CastExecuteIsAlchScepterUseChance_75%
-{
-	scene "scenes/alchemist/alchemist_alch_scepter_01.vcd" nodelay noscene speakonce
-	scene "scenes/alchemist/alchemist_alch_scepter_02.vcd" nodelay noscene speakonce
-}
-
-Rule alchemist_CastExecuteIsAlchScepterUseChance_75%_Rule
-{
-	criteria CastExecute Isalchemist IsAlchScepterUse Chance_75%
-	response alchemist_CastExecuteIsAlchScepterUseChance_75%
-}
-
 Response alchemist_LastHit
 {
 	scene "scenes/alchemist/alchemist_alch_ability_goblin_01.vcd" nodelay noscene 
@@ -624,6 +612,18 @@ Rule alchemist_PurchaseIsBlinkDagger_Rule
 {
 	criteria Purchase Isalchemist IsBlinkDagger
 	response alchemist_PurchaseIsBlinkDagger
+}
+
+Response alchemist_PurchaseIsUltimateScepter
+{
+	scene "scenes/alchemist/alchemist_alch_scepter_01.vcd" nodelay noscene speakonce
+	scene "scenes/alchemist/alchemist_alch_scepter_02.vcd" nodelay noscene speakonce
+}
+
+Rule alchemist_PurchaseIsUltimateScepter_Rule
+{
+	criteria Purchase Isalchemist IsUltimateScepter
+	response alchemist_PurchaseIsUltimateScepter
 }
 
 Response alchemist_PurchaseIsVanguard

@@ -1121,3 +1121,11 @@
 		}
 	}
 }
+
+"Item.MoonShard.Consume"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"			"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"wave"			")items/moon_shard.wav"
+}
